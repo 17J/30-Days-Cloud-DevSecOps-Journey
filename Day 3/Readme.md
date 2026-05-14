@@ -1,5 +1,6 @@
- 🌐 Networking Fundamentals for DevOps & DevSecOps Engineers
+# Day 3 — Networking Fundamentals
 
+🌐 Networking Fundamentals for DevOps & DevSecOps Engineers
 
 If you’re entering the world of DevOps, Cloud, Cybersecurity, or DevSecOps, there’s one thing you simply cannot escape:
 
@@ -12,12 +13,12 @@ And trust me…
 
 Every DevOps engineer has faced moments like:
 
-* “Why is the service unreachable?”
-* “Why is DNS failing?”
-* “Why is port 443 blocked?”
-* “Why is the pod timing out?”
-* “Why does curl work but browser doesn’t?”
-* “Why is UDP packet loss happening?”
+- “Why is the service unreachable?”
+- “Why is DNS failing?”
+- “Why is port 443 blocked?”
+- “Why is the pod timing out?”
+- “Why does curl work but browser doesn’t?”
+- “Why is UDP packet loss happening?”
 
 At that moment, networking fundamentals stop being “theory” and become survival skills.
 
@@ -29,16 +30,16 @@ So in this blog, we’ll break networking down in a professional but chill chit-
 
 Today everything is connected:
 
-* Cloud servers
-* Kubernetes clusters
-* APIs
-* Microservices
-* Databases
-* CI/CD runners
-* Containers
-* Security tools
-* VPNs
-* CDNs
+- Cloud servers
+- Kubernetes clusters
+- APIs
+- Microservices
+- Databases
+- CI/CD runners
+- Containers
+- Security tools
+- VPNs
+- CDNs
 
 Even your Git push travels through multiple networking layers before reaching GitHub.
 
@@ -64,11 +65,11 @@ When two systems exchange data, they follow a set of rules called **protocols**.
 
 Example:
 
-* Your browser requests a website
-* DNS converts domain → IP
-* TCP establishes connection
-* HTTPS encrypts communication
-* Server sends response
+- Your browser requests a website
+- DNS converts domain → IP
+- TCP establishes connection
+- HTTPS encrypts communication
+- Server sends response
 
 All this happens in milliseconds.
 
@@ -90,8 +91,6 @@ Think of it like delivering a package through multiple departments.
 
 ![OSI Model](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ri4fagmoj6kuhoycsqbr.png)
 
-
-
 ---
 
 ## 🔍 Understanding Each Layer
@@ -104,11 +103,11 @@ This is where users interact.
 
 Protocols:
 
-* HTTP
-* HTTPS
-* DNS
-* FTP
-* SMTP
+- HTTP
+- HTTPS
+- DNS
+- FTP
+- SMTP
 
 Example:
 When you open YouTube in browser.
@@ -119,14 +118,14 @@ When you open YouTube in browser.
 
 Handles:
 
-* Encryption
-* Compression
-* Data formatting
+- Encryption
+- Compression
+- Data formatting
 
 Examples:
 
-* SSL/TLS encryption
-* JPEG/PNG formatting
+- SSL/TLS encryption
+- JPEG/PNG formatting
 
 This layer makes HTTPS secure.
 
@@ -136,9 +135,9 @@ This layer makes HTTPS secure.
 
 Responsible for:
 
-* Opening sessions
-* Maintaining sessions
-* Closing sessions
+- Opening sessions
+- Maintaining sessions
+- Closing sessions
 
 Example:
 Keeping your login session active.
@@ -151,14 +150,14 @@ This is where **TCP and UDP** live.
 
 Responsibilities:
 
-* Data delivery
-* Error checking
-* Packet sequencing
+- Data delivery
+- Error checking
+- Packet sequencing
 
 Protocols:
 
-* TCP
-* UDP
+- TCP
+- UDP
 
 This layer is extremely important in DevOps and Security.
 
@@ -168,12 +167,12 @@ This layer is extremely important in DevOps and Security.
 
 This layer handles:
 
-* IP addressing
-* Routing
+- IP addressing
+- Routing
 
 Protocol:
 
-* IP (Internet Protocol)
+- IP (Internet Protocol)
 
 Routers operate here.
 
@@ -183,8 +182,8 @@ Routers operate here.
 
 Handles:
 
-* MAC addresses
-* Local network communication
+- MAC addresses
+- Local network communication
 
 Switches operate here.
 
@@ -194,9 +193,9 @@ Switches operate here.
 
 The actual hardware:
 
-* Cables
-* Fiber optics
-* Wi-Fi signals
+- Cables
+- Fiber optics
+- Wi-Fi signals
 
 This is the physical transmission layer.
 
@@ -209,7 +208,6 @@ Now here’s the interesting part:
 The internet doesn’t actually use the full OSI model directly.
 
 It mainly follows the **TCP/IP Model**.
-
 
 ![TCP IP Model](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/klh550qcyc8sghrmr37u.png)
 
@@ -343,8 +341,8 @@ HTTP = **HyperText Transfer Protocol**
 
 Used for communication between:
 
-* Browser
-* Server
+- Browser
+- Server
 
 HTTP is stateless.
 
@@ -429,10 +427,10 @@ Used when data integrity matters.
 
 Examples:
 
-* HTTPS
-* SSH
-* FTP
-* Database communication
+- HTTPS
+- SSH
+- FTP
+- Database communication
 
 ---
 
@@ -447,10 +445,10 @@ Used when speed matters more than perfection.
 
 Examples:
 
-* Gaming
-* Live streaming
-* VoIP
-* DNS queries
+- Gaming
+- Live streaming
+- VoIP
+- DNS queries
 
 ---
 
@@ -458,9 +456,9 @@ Examples:
 
 | Feature        | TCP | UDP |
 | -------------- | --- | --- |
-| Reliable       | ✅   | ❌   |
-| Fast           | ❌   | ✅   |
-| Ordered        | ✅   | ❌   |
+| Reliable       | ✅  | ❌  |
+| Fast           | ❌  | ✅  |
+| Ordered        | ✅  | ❌  |
 | Connection     | Yes | No  |
 | Error Recovery | Yes | No  |
 
@@ -520,8 +518,6 @@ Connection established ✅
 
 ![Three Way Handshake](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/risahr8mmm5f1jwhzhei.png)
 
-
-
 After this:
 Actual data transfer begins.
 
@@ -531,16 +527,16 @@ Actual data transfer begins.
 
 Understanding handshake helps detect:
 
-* SYN Flood attacks
-* Connection hijacking
-* Network scanning
-* Reconnaissance
+- SYN Flood attacks
+- Connection hijacking
+- Network scanning
+- Reconnaissance
 
 This is heavily used in:
 
-* SOC operations
-* Threat detection
-* DevSecOps monitoring
+- SOC operations
+- Threat detection
+- DevSecOps monitoring
 
 ---
 
@@ -554,13 +550,13 @@ Networking becomes even more important.
 
 You deal with:
 
-* Pod networking
-* Service discovery
-* Ingress controllers
-* Load balancers
-* DNS resolution
-* Service mesh
-* Internal routing
+- Pod networking
+- Service discovery
+- Ingress controllers
+- Load balancers
+- DNS resolution
+- Service mesh
+- Internal routing
 
 One small DNS issue can break entire production systems.
 
@@ -570,13 +566,13 @@ One small DNS issue can break entire production systems.
 
 DevSecOps engineers constantly work with:
 
-* WAFs
-* Firewalls
-* Reverse proxies
-* TLS certificates
-* Network policies
-* VPNs
-* Zero Trust networking
+- WAFs
+- Firewalls
+- Reverse proxies
+- TLS certificates
+- Network policies
+- VPNs
+- Zero Trust networking
 
 Without networking knowledge:
 Security becomes guesswork.
@@ -651,11 +647,11 @@ ss -tulnp
 
 A lot of engineers jump directly into:
 
-* Kubernetes
-* Docker
-* Cloud
-* Terraform
-* Security tools
+- Kubernetes
+- Docker
+- Cloud
+- Terraform
+- Security tools
 
 But skip networking fundamentals.
 
@@ -679,23 +675,23 @@ Networking is not optional anymore.
 
 Whether you're:
 
-* DevOps Engineer
-* Cloud Engineer
-* Backend Developer
-* DevSecOps Engineer
-* Security Researcher
-* SRE
+- DevOps Engineer
+- Cloud Engineer
+- Backend Developer
+- DevSecOps Engineer
+- Security Researcher
+- SRE
 
 You must understand:
 
-* IP
-* DNS
-* HTTP/HTTPS
-* TCP/UDP
-* Ports
-* OSI Model
-* TCP/IP Model
-* 3-Way Handshake
+- IP
+- DNS
+- HTTP/HTTPS
+- TCP/UDP
+- Ports
+- OSI Model
+- TCP/IP Model
+- 3-Way Handshake
 
 These concepts are the backbone of modern infrastructure.
 
@@ -711,5 +707,3 @@ And honestly?
 Most “complex production issues” eventually come down to:
 
 > Networking somewhere broke.
-
-
