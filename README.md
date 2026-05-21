@@ -171,12 +171,29 @@ The goal is to learn consistently, build projects, and document everything publi
 
 ---
 
-## ✅ Day 10 — VPC & VPC Peering
+## ✅ Day 10 — AWS EC2
 
 ### Topics Covered
 
+- EC2 Basics
+- Launch Templates
+- Auto Scaling Groups
+- Application Load Balancer
+- Network Load Balancer
+
+### 🔥 Mini Project
+
+- Run a Nginx on EC2 Instance
+
+---
+
+## ✅ Day 11 — AWS VPC
+
+### Topics Covered
+
+- What is VPC
 - Subnets
-- Route tables
+- Route Tables
 - Internet Gateway
 - Security Groups
 - VPC Peering
@@ -184,17 +201,6 @@ The goal is to learn consistently, build projects, and document everything publi
 ### 🔥 Mini Project
 
 - Connect two VPCs
-
----
-
-## ✅ Day 11 — EC2, Auto Scaling & Load Balancer
-
-### Topics Covered
-
-- EC2 basics
-- Launch templates
-- Auto Scaling Groups
-- Application Load Balancer
 
 ---
 
