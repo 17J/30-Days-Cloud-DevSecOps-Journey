@@ -298,28 +298,23 @@ The goal is to learn consistently, build projects, and document everything publi
 
 ---
 
-## ✅ Day 19 — AWS Lambda & RDS
+## ✅ Day 19 — AWS RDS
 
 ### Topics Covered
 
-- Serverless basics
-- Database integration
-- Event-driven architecture
+- What is RDS
+- What is Aurora
+- Example RDS Step By Step
 
-### 🔥 Mini Project
-
-- Lambda function connected to RDS
 
 ---
 
-## ✅ Day 20 — AWS Pricing & Support Plans
+## ✅ Day 20 — AWS Lambda
 
 ### Topics Covered
 
-- Pricing calculator
-- Support tiers
-- Cost estimation
-- Budget planning
+- What is AWS Lambda
+- Intergration to RDS
 
 ---
 
