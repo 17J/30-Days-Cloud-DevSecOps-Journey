@@ -306,7 +306,6 @@ The goal is to learn consistently, build projects, and document everything publi
 - What is Aurora
 - Example RDS Step By Step
 
-
 ---
 
 ## ✅ Day 20 — AWS Lambda
@@ -328,7 +327,17 @@ The goal is to learn consistently, build projects, and document everything publi
 
 ---
 
-## ✅ Day 22 — GitHub Actions CI/CD Pipeline
+## ✅ Day 22 — Artifact Repository Management
+
+### Topics Covered
+
+- What is Artifact Repository Management
+- Why Artifact Repository
+- Nexus Artifact Repository Management Example
+
+---
+
+## ✅ Day 23 — GitHub Actions CI/CD Pipeline
 
 ### Topics Covered
 
@@ -342,7 +351,7 @@ The goal is to learn consistently, build projects, and document everything publi
 
 ---
 
-## ✅ Day 23 — Kubernetes Fundamentals
+## ✅ Day 24 — Kubernetes Fundamentals & Kubernetes Security
 
 ### Topics Covered
 
@@ -351,13 +360,6 @@ The goal is to learn consistently, build projects, and document everything publi
 - ConfigMaps
 - Secrets
 - Deployments
-
----
-
-## ✅ Day 24 — Kubernetes Security
-
-### Topics Covered
-
 - RBAC
 - Network Policies
 - Pod Security
