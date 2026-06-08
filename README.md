@@ -407,26 +407,29 @@ The goal is to learn consistently, build projects, and document everything publi
 
 ---
 
-## ✅ Day 28 — DevSecOps Pipeline Project
+## ✅ Day 28 — Monitoring & Observability Part One
 
 ### 🚀 Build
 
-- Dockerized application
-- Security scanning
-- CI/CD pipeline
-- Kubernetes deployment
+- What is Observability
+- Pillars Of Observability
+- Prometheus
+- Grafana
+- AlertManager
+- Metrics
 
 ---
 
-## ✅ Day 29 — Monitoring & Observability
+## ✅ Day 29 — Monitoring & Observability Part Two
 
 ### Topics Covered
 
-- Prometheus
-- Grafana
 - Logs
-- Metrics
-- Alerts
+- Tracing
+- ELK
+- OpenTelemetry
+- Jaeger
+- Loki
 
 ---
 
