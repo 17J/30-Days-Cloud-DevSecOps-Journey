@@ -433,15 +433,11 @@ The goal is to learn consistently, build projects, and document everything publi
 
 ---
 
-## ✅ Day 30 — Final Capstone Project
+## ✅ Day 30 — DevSecOps MasterClass Summarize
 
-### 🚀 Build a Complete
 
-- Cloud-native application
-- CI/CD pipeline
-- Kubernetes deployment
-- Security scanning
-- Monitoring stack
+
+- Summarize DevSecOps Journey From Day 1 to Day 29
 
 ---
 
